@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.disabledLink {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: grey;
+}
